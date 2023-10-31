@@ -59,7 +59,5 @@ class TestJokenpo(unittest.TestCase):
         resultado = jokenpo("Papel", "Tesoura")
         self.assertEqual(resultado, "Jogador 2 vence")
 
-    # Adicione mais testes aqui
-
 if __name__ == '__main__':
     unittest.main()
