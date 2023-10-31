@@ -18,7 +18,5 @@ class TestDistribuicaoMictorios(unittest.TestCase):
         resultado = calcular_mijoes_nao_constrangedores(ocupacao_inicial)
         self.assertEqual(resultado, 1)
 
-    # Adicione mais testes conforme necessário
-
 if __name__ == '__main__':
     unittest.main()
